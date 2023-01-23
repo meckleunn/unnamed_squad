@@ -16,6 +16,7 @@ Players have access to the following commands, and their basic function
 -`!switch` switches player
 -`!commands` displays above 
 
+
 ## Server Profile Linking System
 To facilitate automation, we have moved to [Squad Whitelister](https://github.com/fantinodavide/Squad_Whitelister)
 
