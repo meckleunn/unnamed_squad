@@ -279,9 +279,9 @@ First step is to "Warn" the player, either verbally or through the in-game warni
 2. Select the Player Name, press the arrow 
 3. Select "Main Camping" 
 4. You will be asked to confirm the main camp warning, and the server will execute the following warning to the player 
-	4.1. `Camping enemy mains is not allowed! Please remove yourself, and all deployed assets`
-	4.2. `Failure to comply, will result in removal`
-	4.3. Execute Player Flag Added > Main Camp 
+- `Camping enemy mains is not allowed! Please remove yourself, and all deployed assets`
+- `Failure to comply, will result in removal`
+- Execute Player Flag Added > Main Camp 
 
 #### Chat Command
 - `!main` triggers two global chat responses
