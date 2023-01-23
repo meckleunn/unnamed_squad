@@ -58,8 +58,8 @@ All Bans and Warnings, Kicks should be done within the Battlemetrics System so t
 1. Click the Player Name 
 2. `Add Ban`
 3. You will be taken to another screen 
-	3.1. Do not Edit "Banned on Server" 
-	3.2. You may edit "Ban List", `The Unnamed` is our general ban list, `The Unnamed CBL` is community ban list. Note you MUST have evidence (video, or sufficient logs) to proceed with this
+- Do not Edit "Banned on Server" 
+- You may edit "Ban List", `The Unnamed` is our general ban list, `The Unnamed CBL` is community ban list. Note you MUST have evidence (video, or sufficient logs) to proceed with this
 4. Leave all defaults 
 5. Duration you can set with the drop down or leave blank for `Forever`
 6. Reason: Our template is `Kicked for *PUT_REASON_HERE* | {{timeLeft}} | beunnamed.com`, please `put a reason` in `*PUT_REASON_HERE*`
