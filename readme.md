@@ -8,15 +8,14 @@ Note that these commands will not work for regular players, who do not have an a
 ## General Player Commands Available
 Players have access to the following commands, and their basic function 
 
--`!profile` provides link to the user profile based on `/profile` used in discord 
--`!onlyfans` provides patreon information
--`!admin` reports to admins 
--`!rules` displays rules locations
--`!discord` displays discord link 
--`!switch` switches player
--`!commands` displays above 
-
-
+- `!profile` provides link to the user profile based on `/profile` used in discord 
+- `!onlyfans` provides patreon information
+- `!admin` reports to admins 
+- `!rules` displays rules locations
+- `!discord` displays discord link 
+- `!switch` switches player
+- `!commands` displays above 
+- 
 ## Server Profile Linking System
 To facilitate automation, we have moved to [Squad Whitelister](https://github.com/fantinodavide/Squad_Whitelister)
 
