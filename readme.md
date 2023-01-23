@@ -44,6 +44,30 @@ As of Wednesday, 25 January 2023 18:00 (MST), this will be the only way to gain 
 #### Step 4 - That's it! 
 - Your groups and seeding reward will show on your profile both in game and discord.
 
+# General Admin Rules
+
+> When accepting administration, please double check your battlemetrics
+> email is sent to Meckle for setup.
+
+### Professionalism
+Please act professional, remember you are **representing** our community as admins. There are plenty of squad servers out there, our reputation so far is **active administration**, please do not tarnish what we've all worked so hard for. 
+
+### Admin Squad
+If you are rolling just admin duties, please sit in an admin squad, call it whatever you want `admin` `dadmin` `bradmin` `lemonade truck min` idk. Just please do that 
+
+### Admin Camera
+Please do not abuse the administration camera, for ghosting, cheating or otherwise. If someone is reported or mass teamkilling, no one is going to hate you for investigating. 
+
+### Please be familiar with the server rules, you are enforcing them. 
+There may seem like a lot of rules, but with playing 50 hours on our server minimum, you probably know them all. 
+
+### Server Administration Websites 
+Squad wants us to monitor players utilizing the Code of Conduct as our policy. Please be sure to familarize yourself with this information in these links.
+
+[https://joinsquad.com/code-of-conduct/](https://joinsquad.com/code-of-conduct/ "https://joinsquad.com/code-of-conduct/")  
+[https://forums.joinsquad.com/discussion/471/community-server-ban-faqs](https://forums.joinsquad.com/discussion/471/community-server-ban-faqs "https://forums.joinsquad.com/discussion/471/community-server-ban-faqs")[https://forums.joinsquad.com/discussion/22/server-administration-policies](https://forums.joinsquad.com/discussion/22/server-administration-policies "https://forums.joinsquad.com/discussion/22/server-administration-policies")  [https://forums.joinsquad.com/discussion/21/server-license-policies](https://forums.joinsquad.com/discussion/21/server-license-policies "https://forums.joinsquad.com/discussion/21/server-license-policies")  
+
+
 # Battlemetrics Basics
 All Bans and Warnings, Kicks should be done within the Battlemetrics System so they are logged. This is not only for accountability, but more for other admins to look at the past record on the player. 
 ## Warning a Player
