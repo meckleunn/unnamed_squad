@@ -116,13 +116,13 @@ Every ban should have evidence to back it up, whether it be a log, notes, or vid
 ### For Community Ban List, we need video evidence / picture evidence
 
 **Note:** If you want the player on the Community ban list, please tag meckle that you have completed a CBL ban selection, or just ping meckle to add in `#📂︱ban-evidence` with the following template, if not we'll just keep them on "The Unnamed" ban list* 
-
+```
 `**Name**`: 
 `**SteamID64**`: 
 `**Report Info**`: 
 `**Description**`:
 `**Evidence**`:
-
+```
 ### The "Server Protection" Catch All
 
 If you think the player is cheating, or violating server policies without enough evidence, or you name it. Please put the reason as **"Server Protection"**, and leave it as a local ban.
