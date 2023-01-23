@@ -1,12 +1,23 @@
 
 
 
-# Unnamed Server Documentation
+# Unnamed Squad Server Documentation & Admin Guide
 This is a general information repository for all things Unnamed Servers.
 
 Admins should utilize this information to conduct their responsibilities / processes while managing the squad server.
 
 Note that these commands will not work for regular players, who do not have an administration account tied to the server.
+
+## General Player Commands Available
+Players have access to the following commands, and their basic function 
+-`!profile` provides link to the user profile based on `/profile` used in discord 
+-`!onlyfans` provides patreon information
+-`!admin` reports to admins 
+-`!rules` displays rules locations
+-`!discord` displays discord link 
+-`!switch` switches player
+-`!commands` displays above 
+
 # Battlemetrics Basics
 All Bans and Warnings, Kicks should be done within the Battlemetrics System so they are logged. This is not only for accountability, but more for other admins to look at the past record on the player. 
 ## Warning a Player
@@ -30,6 +41,65 @@ All Bans and Warnings, Kicks should be done within the Battlemetrics System so t
 8. For "Banned Identifiers", please leave the default checked. 
 **DO NOT CLICK ANY NAME**
 9. Save Ban, the player is now banned for the duration selected
+
+## Banning Players Guide
+All player bans **MUST** be on **BATTLEMETRICS**. 
+
+**Banning Players** 
+Please read the following information in regards to banning of players, for **time**, **how-to**, **evidence template**. 
+
+***Timeframe Guidelines***
+This is up to the discretion of the banning administrator, here's a good guide that you could utilize to help with your banning template. 
+
+**Egregious Banning Reasons** - Permanent Bans 
+This can include things like, Racism, Homophobia, Hate Speech, Abusive Language, Slurs, Discrimination, Threats, Pedophilia, anything you would consider "Illegal"
+
+In our server, we also wish to express permanent removal of
+- Trolling
+- Griefing Allies
+
+**Server Violations** - Admin Discretion, however, here's a template
+- `Teamkilling`: Intentional, Permanent 
+- `Asset Wasting`: Intentional, 7 Day; Perm; ; Accidental, Day
+- `Asset Claim Violations`: Intentional, 3 Day,  7 Day; Perm; Accidental, Kick 
+- `Ghosting`: Permanent
+- `Racism`: Permanent
+- `Sabotage`: Permanent
+- `Squad Baiting`: Intentional, 3 Days; 7 days; Perm; Accidental, Kick. Could also always ban them per day per squad created
+- `Main Camping`: Warn First, then if they do not move, ban 3 days, if they do move, move on. If its a repeat offense, perm 
+- `Helicopter Ramming`:3 Days, 7 Days; Perm 
+- `Toxicity`: 3 Days; 7 Days; Perm
+- `Seed Rule Violations`: Permanent, they'll just keep coming back and doing it. 
+- `No SL Kit`: Demote; Kick; 3 Day; Perm. Admin Discretion, it'll auto demote after 6 minutes
+- `Spamming`: 7 days
+- `Streamsniping`: Kick, Perm if continued and proveable
+- `Advertising`: Kick 
+- `Albeism`: Permanent
+- `Politics`: 3 Days; 7 Days; Perm 
+- `Recruiting`: Kick
+- `Glitching / Cheating`: Perm
+- `Cheating`: Perm 
+- `Mic Spamming`: 1 Day - to - Perm after Warning
+- `Not playing objective`: Warn, 3 Days, 7 Days, Perm
+
+
+**Evidence Template:** Please submit all ban evidence in`#📂︱ban-evidence. `
+
+Every ban should have evidence to back it up, whether it be a log, notes, or video. When they come to appeal, I want all the information available. If you do not have time to submit this afterwards, please just have notes on the ban in battlemetrics. It should be good practice to use discord though. 
+
+### For Community Ban List, we need video evidence / picture evidence
+
+**Note:** If you want the player on the Community ban list, please tag meckle that you have completed a CBL ban selection, or just ping meckle to add in `#📂︱ban-evidence` with the following template, if not we'll just keep them on "The Unnamed" ban list* 
+
+`**Name**`: 
+`**SteamID64**`: 
+`**Report Info**`: 
+`**Description**`:
+`**Evidence**`:
+
+### The "Server Protection" Catch All
+
+If you think the player is cheating, or violating server policies without enough evidence, or you name it. Please put the reason as **"Server Protection"**, and leave it as a local ban.
 
 # Admin Commands
 All Commands in this subset are to be used by administration staff. If the category marked by `User Commands` then all users (players) can utilize.
@@ -152,6 +222,8 @@ The [Admin notification](https://www.battlemetrics.com/rcon/triggers/edit/a826fa
 ## Server Rules Automation and Chat Enforcement
 
 Server Rules are available in the Message of the Day, on the [Unnamed Website](http://theunnamedcorp.com/squad.html#sqserverrules) and in our [Discord](https://discord.com/channels/836985182778556436/1063890894455054426). *Players have no excuse to not find our rules.*
+
+For our most convuluded rules, here are some more enhanced admin direction these following incident types.
 ### Claims Enforcement 
 Our squad utilizes squad claims to manage team cohesion. Many servers run first-come-first-served basis, **we are not one of them.**
 #### Chat Commands
@@ -159,6 +231,7 @@ Our squad utilizes squad claims to manage team cohesion. Many servers run first-
 	- Vehicles are done by Squad Names! Please read our rules at: theunnamedcorp.com. First named squad has priority. Discord has a list of all acceptable names.
 	- Squads must be named after the vehicle name/type, and can claim multiple of the SAME assets (example LAV-25 can claim 2x LAV-25 if 6 crew, TANK = Tank Squad, etc.) 
 	- Squads named "ARMOR" have no claims here and are forbidden, please utilize 1 vehicle type only. 
+- `!dual` Squads can not claim 2 different vehicle types. Ex: Bradley/Tank
 
 To prevent "Armor" / "Vehicle" squads, the server has a built in [validation service](https://github.com/fantinodavide/squadjs-squad-name-validator)
 - Admins can view the log of squad name validations [here](https://discord.com/channels/836985182778556436/1064237320435400726) for any failed responses
@@ -188,6 +261,7 @@ First step is to "Warn" the player, either verbally or through the in-game warni
 - `!main` triggers two global chat responses
 	- Main Base Camping is defined as positioning assets, infantry, or mines, at any distance, with the intent to destroy enemy assets entering or leaving main. 
 	- We deal with Main Base Camping on our server on a case-by-case basis. Admin discretion is final, if there are issues or disagreements, bring them to discord.
+- `!minemain` Do not mine, or camp the enemy main! Play the objective!!!
 
 ## Teamplay Enforcement
 Playing an objective is the main part of squad, it's pretty much the reason for the games existence. To play as a squad  in a group of squads. 
@@ -197,4 +271,229 @@ What defines `Teamplay` can be open to interpretation, but here in our server we
 2. Supporting their team through logistical actions 
 3. Supporting their team through distanced based armor support
 4. Supporting their team through setting up mortar fobs 
-5. Supporting their team 
+5. Supporting their team that is in any justifiable way supporting their team, it's pretty obvious
+
+#### What Isn't Teamplay 
+
+6. Actively pushing off the flag into areas way off the main objective 
+7. Camping mains 
+8. Taking a full squad of 9+ guys into nowhere to go "Fob Hunting" or actively play off objectives, with some dumb flank scheme that makes no sense 
+9. TOW Fobs with a full squad of 9 people for essentially what is 1 asset by 1 person. 
+Use your discretion, we have an Auto Flag for Teamplay that tells the player `Your team needs you! Please play active objectives!` 
+
+### Chat Commands
+- `!teamplay` prompts two global chat messages 
+	- This is a teamplay server, follow objectives, communicate, play together. Listen to your commander.
+	- Failure to abide by this, can result in your removal.
+- `!ptfo` Play the ACTIVE objective!!
+
+## Squad Leaders
+Either the most beneficial or damning thing to a team are squad leaders. 
+
+**Our squad leaders must:**
+1. Have a microphone 
+2. Have a squad leader kit 
+3. Must not lead a free kit squad, which essentially means no direction - "DO WHATEVER YOU WANT" 
+
+### Chat Commands
+- `!sl` Squad Leads must have a Squad Leader Kit, Microphone. They must lead their squad.
+- `!lead` prompts two global chat messages 
+	- You must lead the squad you create, lock the squad at appropriate players for your assets if necessary. 
+	- Squads that are not being led, and utilized as a free kit squad will be disbanded.
+
+## General Chat Commands for Admins
+- `!afk` 
+
+> All players must join a squad, or will be considered AFK and kicked
+> for active players!
+
+- `!tk` 
+
+> Apologize for your Teamkills in All-Chat! [J] Failure to do so, can
+> result in removal.
+
+- `!int` 
+
+> Intentional teamkilling of any kind is not tolerated, do not teamkill
+> intentionally.
+
+- `!toxic` 
+
+> Toxic behavior will not be tolerated - be respectful to all players on
+> the server
+
+- `!language` 
+
+> Abusive Language / Hate Speech is NOT Tolerated, you will be banned.
+
+- `!politics` 
+
+> Please do not discuss politics or other controversial topics in chat!
+
+- `!clearchat` 
+
+> Clear the Global Chat!
+
+- `!ls` 
+
+> No Locked squads under 4 unless named task such as LOGI, VEHICLE_NAME, HELI
+> You must unlock your squad when asked by an Admin
+
+- `!ram` 
+
+> No Ramming With Helicopters, or their blades. You will be removed.
+
+- `!bait` 
+
+> Creating a squad you do not intend to lead leads to removal from our
+> server. If your squad leader left, please either find a leader or
+> disband the squad.
+
+- `!ticket` 
+
+> Do not share ticket info in all chat!
+
+- `!submit` 
+
+> If you are reporting abusive behavior, submit all evidence to our
+> discord to expedite the process
+
+- `!ghosting` 
+
+> Ghosting is sharing information to the other team, do not share
+> information intentionally. If you are caught sharing information, you
+> will be permanently banned.
+
+- `!solo` 
+
+> Do not solo vehicles that require crewman kits to operate!
+
+### Advertising 
+
+- `!clan` 
+
+> Are you a clan looking for a community to call home? Head to our
+> discord today, talk to an admin about group whitelisting.
+
+- `!thankyou` 
+
+> Thank you for playing here! Hit up our community at
+> theunnamedcorp.com! Feedback welcome!
+
+- `!joindiscord` 
+
+> Join our community today! discord.gg/unnamedcorp! Giveaways,
+> Whitelist, Gaming Community, Maplesyrup pics.
+
+- `!recruiting` 
+
+> We're recruiting! Stop by our website at beunnamed.com!
+
+- `!afterparty` 
+
+> Join / Visit our community at beunnamed.com!
+
+- `!enjoy` 
+
+> Enjoying our server? Hop on our discord! Be apart of the community and
+> gain whitelist! beunnamed.com
+
+- `!whitelist` 
+
+> Wanting to have a whitelisted slot? Head to our website for more info.
+> theunnamedcorp.com
+
+- `!fwl` 
+
+> Do you SL or Command often?! We take note! You can get free whitelist,
+> join our discord to learn more.
+
+## Discord Channels Explained
+*You may not have access to all of the channels below* 
+
+**We allow you to mute these channels, so you do not get notification spam**
+
+- `log︱maps` holds all map voting bot relations, including map votes called, round ended results, map vote results if duration is before server end 
+- `log︱rcon` allows executive admins to directly issue rcon commands via Discord 
+- `log︱kill-feed` all kills are logged, based on 
+	- Attacker Name
+	- Attacker Steam ID
+	- Weapon
+	- Victim Name 
+	- Victim Steam ID
+	- Community Ban List Link for Attacker
+-  `log︱teamkills` all teamkills are logged based on 
+	- Attacker Name
+	- Attacker Steam ID
+	- Weapon
+	- Victim Name 
+	- Victim Steam ID
+	- Community Ban List Link for Attacker
+- `log︱cbl` logs all bans added or removed to our community ban list
+- `log︱squads` logs all squads created 
+- `log︱seeders` logs all seeders who hit 5+ seeds in a month **Channel is Deprecated** 
+- `log︱whitelists` logs all whitelist submissions **Channel is Deprecated due to Whitelister Activation**
+- `log︱fob-explo` logs explosions on hab entities, not always great tool but it works when it needs to.... I guess? Kinda buggy. 
+- `log︱sq-validator` will log all squads that are automatically disbanded due to forbidden wording
+
+## Community Ban List Documentation 
+For Banning Reasons, we need to have a like match to these banning reasons when submitting a ban. If the convention is not followed, it will come back with *Unknown*. 
+
+
+**Ban Reasons**
+
+``` Cheating: /cheat|hack|作弊|\bhile|trich|betr(ü|u)/i,
+  Glitching: /glitch/i,
+  Exploiting: /exploit|剝削|istismar|ausnutz/i,
+
+  Teamkilling: /team ?kill|\btk|ITK|[0-9]x?tk|int?tk|team(be|ab)schuss/i,
+
+  Trolling: /troll/i,
+  Griefing: /gr(ie|ei)f/i,
+  'Wasting Assets':
+    /destroying assets|wast(e|ing)|taxi|israf|(friendly|dost) (asset|fob|hab)|sabotage|asset destruct|zerstör|verschwend|eigene(s)? (radio|fob|vehikel|fahrzeug|hab|hub)/i,
+  Ghosting: /ghosting/i,
+
+  Toxic:
+    /disrespect|flam(e|ing)|har(r)?as(s)?|insult|language|offensive|rude|toxic|sayg(i|ı)s(i|ı)z|hakaret|irrespect|respektlos|beleidig(ung|en)/i,
+  'Abusive Language/Hate Speech':
+    /abusive|bigot|derogatory|discriminat|hate ?spe(e|a)ch|(homo|trans)(-| )?phobi|nazi|racial|rac(si|is)m|racist|sexism|sexist|(küfür|kufur)|mal(é|e)diction|種族主義|fluchen|semitism|nigg(a|er)|fag|slur|swastika|schimpfw(o|ö)rt|rassis(t|m)|missbr(a|ä)uch|(f|n)(-| )?(word|bomb)/i,
+
+  AFK: /afk|unassigned/i,
+  'Breaking Seeding Rules': /seed/i,
+  'Breaking Vehicle Priority Rules':
+    /priority|(ara(ç|c) (kural|ihlali))|(vic|vehicle|asset) (name )?claim|claim rule|ignor(ing|ed) claim/i,
+  Camping: /camping|min(e|ing)/i,
+  'Current or Recent VAC Ban': /vac ban/i,
+  'Discussing politics': /politi(c|k|s)|siyaset/i,
+  'Helicopter Ramming': /(ge)?ramm(ing|en|t)/i,
+  Hindering: /(be|ver)?hinder(ing|ed|t|ung)/i,
+  Impersonation: /impersonat|ausge(ge)?ben/i,
+  'Locked Squad': /(locked|geschlossenes) squad/i,
+  'No SL Kit': /sl kit/i,
+  Recruiting: /recruiting|rekrutier/i,
+  'Soloing Vehicles': /crewman|manning|solo|(1|one)(-| )?man/i,
+  Spamming: /spam/i,
+  'Squad Baiting':
+    /bai(t|ting)|creat(?:ed?|ing)(?: a)? squad|pass sl|lead it|(of|to) lead|pas(s|sing)( |-)?SL/i,
+  'Stealing Assets': /steal|çalma|(ge)?st(e|o)hlen/i,
+  Streamsniping: /streamsniping|yayinc(i|ı)/i,
+  'Sharing team info':
+    /shar(e|ing) (ticket|team|hab|fob|info|game|enemy)|ticket (count|sharing)|(info|intel) shar(e|ing)/i,
+  Advertising: /advertising|werb(ung|en)/i,
+  Ableism: /ableis(t|m)/i```
+```
+
+## Appeal Structure
+
+
+**User Appeals** 
+1. If user is apologetic, and genuine: Remove Ban 
+2. If user is an assclown, and it is a timed ban: Leave timed ban 
+3. If user decides to become hostile in tickets: Perm ban, submit transcript in Evidence to upgrade ban to permanent from all services 
+4. If user threatens server in tickets: Perm ban, remove from services, submit evidence to Offworld Industries
+
+Banning Admin may be tagged in tickets, all admins have access to appeal tickets now. Tickets are tagged as 
+
+```ban-user-####```
+
