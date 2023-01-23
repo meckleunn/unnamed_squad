@@ -1,6 +1,3 @@
-
-
-
 # Unnamed Squad Server Documentation & Admin Guide
 This is a general information repository for all things Unnamed Servers.
 
@@ -17,6 +14,34 @@ Players have access to the following commands, and their basic function
 -`!discord` displays discord link 
 -`!switch` switches player
 -`!commands` displays above 
+
+## Server Profile Linking System
+To facilitate automation, we have moved to [Squad Whitelister](https://github.com/fantinodavide/Squad_Whitelister)
+
+Our Squad server runs the "Profile" link system, this ties your discord account (& roles) to your squad player account.
+
+#### This is effective for all of the following player class(es)
+- Members, Applicants
+- Seeding Rewards
+- Partnership Clans
+-  Whitelist Patreons & Supporters
+-  Community Contributors
+- Admins [We will still *hardcode* admins into the server]
+
+As of Wednesday, 25 January 2023 18:00 (MST), this will be the only way to gain a whitelist. If you previously had a whitelist, please make sure your profile is linked.
+
+#### Step 1 - Linking your Profile
+- To link your profile type `/profile` in any channel
+- Press `Link Steam`
+#### Step 2 - Login to our Squad Server
+- You will be provided code via the message in the command
+- Enter the code in our [Squad Server](https://www.battlemetrics.com/servers/squad/16023606) Chat (Press [J] or [K] or [L])
+#### Step 3 - Verify your Squad Account is Linked
+- The message should be updated, to show your verification and details
+- You can check your profile link, in-game by typing `!profile`
+- Note this may take a couple tries
+#### Step 4 - That's it! 
+- Your groups and seeding reward will show on your profile both in game and discord.
 
 # Battlemetrics Basics
 All Bans and Warnings, Kicks should be done within the Battlemetrics System so they are logged. This is not only for accountability, but more for other admins to look at the past record on the player. 
