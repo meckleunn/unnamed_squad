@@ -117,11 +117,11 @@ Every ban should have evidence to back it up, whether it be a log, notes, or vid
 
 **Note:** If you want the player on the Community ban list, please tag meckle that you have completed a CBL ban selection, or just ping meckle to add in `#📂︱ban-evidence` with the following template, if not we'll just keep them on "The Unnamed" ban list* 
 ```
-`**Name**`: 
-`**SteamID64**`: 
-`**Report Info**`: 
-`**Description**`:
-`**Evidence**`:
+**Name**: 
+**SteamID64**: 
+**Report Info**: 
+**Description**:
+**Evidence**:
 ```
 ### The "Server Protection" Catch All
 
