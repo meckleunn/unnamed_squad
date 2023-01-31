@@ -5,6 +5,54 @@ Admins should utilize this information to conduct their responsibilities / proce
 
 Note that these commands will not work for regular players, who do not have an administration account tied to the server.
 
+---
+### Squad
+Squad is a game by OWI (Offworld Industries), and is a action-pact fps built on 50v50 gameplay. This requires an active direction, administration, and server moderators to promote the best gameplay experience possible.
+
+> **Squad CAO** [Chief Administrative Officer]
+> Reports to the **Board of Executives** [BoE]
+>  * charged with the overall strategic goals of the Squad division, day to day management, and holds key decision making capabilities within the Squad realm. 
+>  * The BoE will provide strategic goals/operation insights/management themes for the CAO to execute.  
+>  * Responsible for the overall health of the Squad Community
+>  * Responsible for Executive Administrators [Three founders who started the generation of the Squad Community]
+>  
+> >  **Squad Executive Director** 
+> > Reports to **Squad CAO**
+> >  * charged with the management of administrators, community engagement and server health 
+> >  * charged management of directors, and any assistance needed to overall operations under CAO
+>
+> > **Recruitment Director** 
+> > > Reports to **Squad CAO**
+> > >  * charged with recruitment directives, recruitment management, and recruitment campaigns for the division.
+> > >  * charged with responsibility of recruitment support staff if necessary, to run recruitment campaigns
+> 
+> > **Community Director** 
+> > > Reports to **Squad CAO**
+> > >  * charged with Community engagement, community relations 
+> 
+> > **Events Director** 
+> > > Reports to **Squad CAO**
+> > >  * charged with Community events, other internal, external and server management
+>
+> > **Diplomacy Director** 
+> > > Reports to **Squad CAO**
+> > >  * charged with the diplomatic relations
+> 
+> > > **Executive Admin Team** 
+> > > > Reports to **Squad Executive Director**
+> >  > >  * charged with the management of administrators 
+> >  > >  * charged with quantity of administrators, either  to add / remove admins
+> >  > >  * charged with handling complaints, appeals
+> 
+> > > > **Squad Admins** 
+> > > > > Reports to **Executive Admin Team**
+> >  > >  > * charged with server performance, community health and moderation of the Squad Servers
+> >  > >  > * charged with day-to-day management of squad players and server
+
+Citizens are able to join apply for admin once meeting the standard requirements, all citizens are given free whitelist for their community support.
+
+---
+
 ## General Player Commands Available
 Players have access to the following commands, and their basic function 
 
